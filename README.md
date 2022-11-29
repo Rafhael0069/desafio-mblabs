@@ -1,24 +1,5 @@
-# desafio-mblabs
+# MyCourses
 
-## Project setup
-```
-yarn install
-```
+A aplicação MyCourses é uma plataforma de anúncios de cursos com a finalidade de reunir os cursos de diversas plataformas de ensino online em um único lugar.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Aplicação online em [MyCourses]()
