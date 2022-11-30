@@ -6,7 +6,7 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "",
-    redirect: { name: "marketing" },
+    redirect: { name: "design" },
   },
   {
     path: "/courses",
@@ -15,12 +15,7 @@ const routes = [
     children: [
       {
         path: "",
-        redirect: { name: "marketing" },
-      },
-      {
-        path: "marketing",
-        name: "marketing",
-        component: () => import("../pages/courses/MarketingPage.vue"),
+        redirect: { name: "design" },
       },
       {
         path: "design",
@@ -32,6 +27,11 @@ const routes = [
         name: "java",
         component: () => import("../pages/courses/JavaPage.vue"),
       },
+      {
+        path: "marketing",
+        name: "marketing",
+        component: () => import("../pages/courses/MarketingPage.vue"),
+      },
     ],
   },
   {
@@ -41,12 +41,7 @@ const routes = [
     children: [
       {
         path: "",
-        redirect: { name: "udemy" },
-      },
-      {
-        path: "udemy",
-        name: "udemy",
-        component: () => import("../pages/parceiros/UdemyPage.vue"),
+        redirect: { name: "alura" },
       },
       {
         path: "alura",
@@ -57,6 +52,11 @@ const routes = [
         path: "coursera",
         name: "coursera",
         component: () => import("../pages/parceiros/CourseraPage.vue"),
+      },
+      {
+        path: "udemy",
+        name: "udemy",
+        component: () => import("../pages/parceiros/UdemyPage.vue"),
       },
     ],
   },
