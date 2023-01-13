@@ -117,7 +117,7 @@ export default {
             "https://images.tcdn.com.br/img/img_prod/104003/curso_online_de_programacao_em_java_com_certificado_3133_1_20200319152642.jpg",
           titulo: "curso de Java 9",
           plataforma: "Udemy",
-          resumo: "Lorem ipsum dolor sit amet adipiscing elit.",
+          resumo: "Lorem ipsum dolor sit amet adipiscing irfberi ergiuberuig elit.",
           expand: false,
           descricao:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu sem eu enim molestie suscipit in vitae dui. Vivamus hendrerit elit ac elementum suscipit. In dolor lacus, auctor sed nisl vel, pharetra feugiat nibh. Nullam condimentum auctor odio, quis dictum velit placerat maximus. Fusce at nisl molestie, faucibus nisl a, fermentum elit.",
